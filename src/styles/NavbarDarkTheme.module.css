@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+
+.NavbarContainer {
+  width: 100%;
+  background-color: #2d2f36;
+  color: #e4e4e7;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+.mainLinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 25px;
+  gap: 20px;
+}
+.Brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2acfcf;
+  padding-left: 50px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: white;
+
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}

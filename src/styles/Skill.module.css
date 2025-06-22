@@ -1,0 +1,25 @@
+.container {
+  background-color: red;
+  background: linear-gradient(to right, gray, black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  margin: 3rem 2rem;
+  border-radius: 8px;
+  color: #ffff;
+  font-weight: bold;
+  background: linear-gradient(to bottom, rgb(96, 90, 90), black);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.iconContainer {
+  width: 5rem;
+  height: 5rem;
+}

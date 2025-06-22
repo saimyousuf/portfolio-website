@@ -1,0 +1,45 @@
+body {
+  background-color: #f9f9f9; /* Light background */
+}
+
+.NavbarContainer {
+  width: 100%;
+  background-color: #ffffff; /* Light navbar background */
+  color: #1f1f1f; /* Dark text for contrast */
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+.mainLinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 25px;
+  gap: 20px;
+}
+
+.Brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #169fda; /* Keep brand color same */
+  padding-left: 50px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #1f1f1f; /* Darker icon for visibility on light background */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
