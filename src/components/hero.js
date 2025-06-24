@@ -7,23 +7,22 @@ export default function Hero() {
           <div className="header-container-inner">
             <h1>Hi! I am Saim. 🙂👋</h1>
             <p>Software Engineer who builds stuff and makes it happen.</p>
-            <a href="#" className="btn">
-              Download Resume
-            </a>
+            <div className="btn-container">
+              <a href="/Md_Saim_Yousuf_Resume.pdf" className="btn" download>
+                📄 Download Resume
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mdsaimyousuf/"
+                className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🤝 Connect with me
+              </a>
+            </div>
           </div>
         </div>
       </header>
-      <section>
-        <div className="centerContainer">
-          <h2>Some random heading</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
-      </section>
     </>
   );
 }
